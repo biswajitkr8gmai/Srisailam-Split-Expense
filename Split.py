@@ -78,11 +78,13 @@ if calc:
         if Biswa - b_con>0:
             st.markdown(f"**Biswa needs to pay:** ₹{Biswa - b_con:.2f}")
 
+    st.header(Fina Settlement actions to be taken!!)
     st.markdown(f"**Pushpesh Bhai owes Sandeep Bhai:** {1*(Pushpesh - p_con):.2f}")
     st.markdown(f"**Biswa owes Nikesh Bhai:** {-1*(Nikesh - n_con):.2f} and Sandeep Bhai: {-1*(Sandeep - s_con)-(Pushpesh - p_con):.2f}")
 
 if __name__=='__main__':
     pass
+
 
 
 
