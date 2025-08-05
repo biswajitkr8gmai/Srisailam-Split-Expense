@@ -79,10 +79,11 @@ if calc:
             st.markdown(f"**Biswa needs to pay:** ₹{Biswa - b_con:.2f}")
 
     st.markdown(f"**Pushpesh Bhai needs to Pay Sandeep Bhai:** {-1*(Pushpesh - p_con):.2f}")
-    st.markdown(f"**Biswa needs to Pay Nikesh Bhai:** {Nikesh - n_con:.2f} and Sandeep Bhai:** {(Sandeep - s_con)+(Pushpesh - p_con):.2f}")
+    st.markdown(f"**Biswa needs to Pay Nikesh Bhai:** {-1*(Nikesh - n_con):.2f} and Sandeep Bhai:** {(Sandeep - s_con)+(Pushpesh - p_con):.2f}")
 
 if __name__=='__main__':
     pass
+
 
 
 
