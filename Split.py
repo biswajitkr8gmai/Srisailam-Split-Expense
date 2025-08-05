@@ -39,7 +39,7 @@ if calc:
     s_con = s_pet + Darshan
     p_con = Breakfast
     b_con = B_pet
-    st.expander('Individual Splits', expanded=True)
+    with st.expander('Individual Splits', expanded=True):
         col1, col2 = st.columns(2)
         with col1:
             st.text_input("Nikesh Bhai", value=Nikesh)
@@ -83,6 +83,7 @@ if calc:
 
 if __name__=='__main__':
     pass
+
 
 
 
