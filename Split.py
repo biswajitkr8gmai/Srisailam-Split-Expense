@@ -15,12 +15,12 @@ with st.expander("Major Expenses ₹", expanded=True):
     col1, col2 = st.columns(2)
     with col1:
         N_pet = st.number_input("Nikesh Bhai (Petrol) ₹", value=3600)
-        Breakfast = st.number_input("Pushpesh Bhai (Breakfast) ₹", value=1300)
+        Breakfast = st.number_input("Pushpesh Bhai (Breakfast + Partial Ticket) ₹", value=1800)
         Lunch_Dinner = st.number_input("Nikesh Bhai (Lun + Din) ₹", value=2400)
     with col2:
         s_pet = st.number_input("Sandeep Bhai (Petrol) ₹", value=3000)
-        Darshan = st.number_input("Sandeep Bhai (Darshan Ticket) ₹", value=2400)
-        B_pet = st.number_input("Biswa ₹", value=1000)
+        Darshan = st.number_input("Sandeep Bhai (Darshan Ticket) ₹", value=1900)
+        B_pet = st.number_input("Biswa (Petrol + Toll Recharge) ₹", value=1300)
 
     calc = st.button("Calculate Expense Split", use_container_width=True)
 if calc:
@@ -83,6 +83,7 @@ if calc:
 
 if __name__=='__main__':
     pass
+
 
 
 
