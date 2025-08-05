@@ -40,13 +40,13 @@ if calc:
     p_con = Breakfast
     b_con = B_pet
     st.expander('Individual Splits', expanded=True)
-    col1, col2 = st.columns(2)
-    with col1:
-        st.text_input("Nikesh Bhai", value=Nikesh)
-        st.text_input("Pushpesh Bhai", value=Pushpesh)
-    with col2:
-        st.text_input("Sandeep Bhai", value=Sandeep)
-        st.text_input("Biswajit", value=Biswa)
+        col1, col2 = st.columns(2)
+        with col1:
+            st.text_input("Nikesh Bhai", value=Nikesh)
+            st.text_input("Pushpesh Bhai", value=Pushpesh)
+        with col2:
+            st.text_input("Sandeep Bhai", value=Sandeep)
+            st.text_input("Biswajit", value=Biswa)
     col1, col2 = st.columns(2)
     with col1:
         st.subheader("Contributions (Amount Paid)")
@@ -83,6 +83,7 @@ if calc:
 
 if __name__=='__main__':
     pass
+
 
 
 
