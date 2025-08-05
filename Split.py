@@ -18,7 +18,7 @@ with st.expander("Major Expenses ₹", expanded=True):
         Breakfast = st.number_input("Pushpesh Bhai (Breakfast + Partial Ticket) ₹", value=1800)
         Lunch_Dinner = st.number_input("Nikesh Bhai (Lun + Din + Shighra Darshan) ₹", value=3000)
     with col2:
-        s_pet = st.number_input("Sandeep Bhai (Petrol) ₹", value=3000)
+        s_pet = st.number_input("Sandeep Bhai (Petrol) ₹", value=2700)
         Darshan = st.number_input("Sandeep Bhai (Darshan Ticket) ₹", value=1900)
         B_pet = st.number_input("Biswa (Petrol + Toll Recharge) ₹", value=1300)
 
@@ -83,6 +83,7 @@ if calc:
 
 if __name__=='__main__':
     pass
+
 
 
 
